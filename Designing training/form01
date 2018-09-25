@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form>
+	
+	<table border="1">
+		<tr>
+		<td> First name</td>
+		<td> <input type="text" name="fn"></td>
+		</tr>
+		<tr>
+		<td> last name</td>
+		<td> <input type="text" name="ln"></td>
+		</tr>
+		<tr>
+		<td> user name</td>
+		<td> <input type="text" name="un"></td>
+		</tr>
+		<tr>
+		<td> password</td>
+		<td> <input type="password" name="pw"></td>
+		</tr>
+		
+		<tr>
+		<td> Address</td>
+		<td> <textarea name="ta"></textarea></td>
+		</tr>
+
+		<tr>
+		<td> Gender</td>
+		<td>    <input type="radio" name="gn" value="male">
+ 				Male
+ 				<input type="radio" name="gn" value="female">
+				Female
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td> City</td>
+		<td> 
+<select >
+	
+	<option value="goa">goa</option>
+	<option value="pune">pune</option>
+	<option value="diu">diu</option>
+</select>
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td> Hobbies</td>
+		<td> <input type="checkbox" name="hb"> Playing<br>
+
+		<input type="checkbox" name="hb"> Reading<br>
+			<input type="checkbox" name="hb"> gillidanda<br>
+		</td>
+		</tr>
+		
+		<tr>
+		<center><td> <input type="submit" name="sb"></td>
+		<td> <input type="reset" name="rs"></td></center>
+		</tr>
+		
+
+	</table>
+
+</form>
+</body>
+</html>
